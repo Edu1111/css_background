@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background:url(Imágenes/FONDO.JPG);
+  height: 60vh;
+  width: 100vw;
+  background-position: 50%;
+  border-bottom: 3px ;
+}
+
+.Header_mantitle{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color:black;
+}
+
+.Header_paragraph{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  font-weight: bolder;
+  text-shadow: 2px 2px white;
+}
+
+.Header_navbar{
+  display: flex;
+  align-items: center;
+  background-color: beige;
+  justify-content: center;
+}
+
+.Header_navbar_button{
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
